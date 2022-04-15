@@ -5,31 +5,31 @@
 import os
 
 class Config:
-    API_ID = int(os.environ.get("API_ID", 123))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    DOWNLOAD_LOCATION = "./DOWNLOADS"
+    API_ID = int(os.environ.get("API_ID", 18233797))
+    API_HASH = os.environ.get("API_HASH", "6cad012cd66ba62e1b7d49f1f84742d1")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5323640419:AAFXnGnqWvZhuUtZUrPU9AX06aX_WPwbF4M")
+    DOWNLOAD_LOCATION = "./Downloads"
     TG_MAX_SIZE = 2040108421
-    OWNER_ID = int(os.environ.get("OWNER_ID", 1316963576))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+    OWNER_ID = int(os.environ.get("OWNER_ID", 5195985707))
+    LOG_CHANNEL = int(os.environ.get(-1001667535152))
+    UPDATES_CHANNEL = os.environ.get("megadllog", None)
 
 
 class TEXT:
   ABOUT = """
-🤖 **Name:** {bot_name}
+🤖 **Nombre:** {bot_name}
 
-📝 **Language:** [Python](https://www.python.org)
+📝 **Lenguaje:** [Python](https://www.python.org)
 
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
+📚 **Librería:** [Pyrogram](https://docs.pyrogram.org)
 
-📡 **Hosted On:** [Heroku](https://heroku.com)
+📡 **Hosteado en:** [Heroku](https://heroku.com)
 
-🧑‍💻 **Developer:** [Safone](https://t.me/ImSafone)
+🧑‍💻 **Desarrollador:** [yordante](https://t.me/yordante)
 
-👥 **Support Group:** [AsmSupport](https://t.me/AsmSupport)
+👥 **Grupo de soporte:** [Full Series Cloud](https://t.me/Full_Series_Cloud)
 
-📢 **Updates Channel:** [Ｓ１ ＢＯＴＳ](https://t.me/AsmSafone)
+📢 **Canal de actualizaciones:** [Full Series Cloud](https://t.me/Full_Series_Cloud)
 """
 
   HELP_USER = """
@@ -41,10 +41,10 @@ This Bot Can Download Files & Videos From Mega Links & Upload To Telegram. Just 
 """
 
   START_TEXT = """
-👋🏻 **Hi** {user_mention},
+👋🏻 **Hola** {user_mention},
 
-I'm **{bot_name}**
-I Can Download Files & Videos From Mega.nz Links & Upload To Telegram. Please Check Help To Learn More 😉!
+Soy **{bot_name}**
+Puedo descargar archivos y ideos de enlaces de MEGA y subirlos a Telegram. Lea la ayuda para más información 😉!
 
-**Maintained By: {bot_owner}**❤️!
+**Creador: {bot_owner}**❤️!
 """
